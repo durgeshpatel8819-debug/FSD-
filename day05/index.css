@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+    background-color: aqua;
+}
+#prod-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+}
+#prod-container div{
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+
+}
