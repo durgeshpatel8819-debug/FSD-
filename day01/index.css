@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(132, 63, 51, 0.406);
+}
+h1 {
+    text-align: center;
+    color: rgb(210, 49, 49);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 128);
+}
+h4{
+    text-align: start;
+    margin-left: 60px;
+    padding-left: 490px;
+    color: rgb(74, 7, 74);
+}
+form {
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(227, 95, 117);
+    
+}
