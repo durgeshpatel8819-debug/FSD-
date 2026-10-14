@@ -1,8 +1,8 @@
 
-import React from 'react';
-
+import {useNavigate} from 'react-router-dom';
 
 const Header = () => {
+  const navigate=useNavigate();
   return (
     <div>
       <nav style={{
@@ -22,10 +22,10 @@ const Header = () => {
           display: "flex",
           gap: "25px"
         }}>
-          <div>Home</div>
-          <div>Products</div>
-          <div>About</div>
-          <div>Cart</div>
+          <div onClick={()=>navigate("/")}>Home</div>
+          <div onClick={()=>navigate("/product")}>Products</div>
+          <div onClick={()=>navigate("/about")}>About</div>
+          <div onClick={()=>navigate("/cart")}>Cart</div>
         </div>
 
       </nav>
