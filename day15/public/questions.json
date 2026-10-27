@@ -1,0 +1,263 @@
+[
+{
+"id": 1,
+"question": "What is React?",
+"options": [
+"A database",
+"A JavaScript library for building user interfaces",
+"A programming language",
+"A CSS framework"
+],
+"correct_answer": "A JavaScript library for building user interfaces",
+"category": "React Basics",
+"difficulty": "Easy"
+},
+{
+"id": 2,
+"question": "Who developed React?",
+"options": [
+"Google",
+"Microsoft",
+"Facebook (Meta)",
+"Amazon"
+],
+"correct_answer": "Facebook (Meta)",
+"category": "React Basics",
+"difficulty": "Easy"
+},
+{
+"id": 3,
+"question": "What is JSX in React?",
+"options": [
+"A database query language",
+"A syntax extension that allows HTML-like markup in JavaScript",
+"A CSS preprocessor",
+"A JavaScript testing tool"
+],
+"correct_answer": "A syntax extension that allows HTML-like markup in JavaScript",
+"category": "JSX",
+"difficulty": "Easy"
+},
+{
+"id": 4,
+"question": "Which method is commonly used to render a list of elements in React?",
+"options": [
+"forEach()",
+"map()",
+"filter()",
+"reduce()"
+],
+"correct_answer": "map()",
+"category": "Rendering Lists",
+"difficulty": "Easy"
+},
+{
+"id": 5,
+"question": "Which hook is used to manage state in a functional component?",
+"options": [
+"useEffect",
+"useRef",
+"useState",
+"useContext"
+],
+"correct_answer": "useState",
+"category": "React Hooks",
+"difficulty": "Easy"
+},
+{
+"id": 6,
+"question": "What is the purpose of props in React?",
+"options": [
+"To store global CSS",
+"To pass data from a parent component to a child component",
+"To connect React to a database",
+"To update the browser URL automatically"
+],
+"correct_answer": "To pass data from a parent component to a child component",
+"category": "Props",
+"difficulty": "Easy"
+},
+{
+"id": 7,
+"question": "How do you attach a click event handler in JSX?",
+"options": [
+"onclick='handleClick()'",
+"onClick={handleClick}",
+"click={handleClick}",
+"on-click={handleClick}"
+],
+"correct_answer": "onClick={handleClick}",
+"category": "Events",
+"difficulty": "Easy"
+},
+{
+"id": 8,
+"question": "Which hook is used to perform side effects in a functional component?",
+"options": [
+"useState",
+"useMemo",
+"useEffect",
+"useRef"
+],
+"correct_answer": "useEffect",
+"category": "React Hooks",
+"difficulty": "Easy"
+},
+{
+"id": 9,
+"question": "Why is the key prop used when rendering lists in React?",
+"options": [
+"To style list items",
+"To identify elements across renders",
+"To encrypt component data",
+"To create event handlers"
+],
+"correct_answer": "To identify elements across renders",
+"category": "Rendering Lists",
+"difficulty": "Medium"
+},
+{
+"id": 10,
+"question": "How do you update a state variable named count using its setter setCount?",
+"options": [
+"count = count + 1",
+"setCount(count + 1)",
+"update(count++)",
+"useState(count + 1)"
+],
+"correct_answer": "setCount(count + 1)",
+"category": "React Hooks",
+"difficulty": "Easy"
+},
+{
+"id": 11,
+"question": "What does the useRef hook commonly help you do?",
+"options": [
+"Store a mutable value or reference a DOM element",
+"Create a new React component automatically",
+"Fetch data from a server automatically",
+"Replace all state variables"
+],
+"correct_answer": "Store a mutable value or reference a DOM element",
+"category": "React Hooks",
+"difficulty": "Medium"
+},
+{
+"id": 12,
+"question": "Which hook allows components to consume values from React Context?",
+"options": [
+"useState",
+"useContext",
+"useEffect",
+"useCallback"
+],
+"correct_answer": "useContext",
+"category": "React Hooks",
+"difficulty": "Medium"
+},
+{
+"id": 13,
+"question": "What happens when a React component's state is updated?",
+"options": [
+"The component is always deleted",
+"React schedules a re-render when needed",
+"The entire browser restarts",
+"The component's props become editable"
+],
+"correct_answer": "React schedules a re-render when needed",
+"category": "State Management",
+"difficulty": "Medium"
+},
+{
+"id": 14,
+"question": "Which syntax is used to conditionally render content in JSX?",
+"options": [
+"if-else directly inside JSX markup",
+"The ternary operator",
+"SQL conditions",
+"CSS media queries only"
+],
+"correct_answer": "The ternary operator",
+"category": "Conditional Rendering",
+"difficulty": "Easy"
+},
+{
+"id": 15,
+"question": "What is a controlled component in React?",
+"options": [
+"A component whose form input value is controlled by React state",
+"A component that cannot receive props",
+"A component that only renders images",
+"A component that manages the database"
+],
+"correct_answer": "A component whose form input value is controlled by React state",
+"category": "Forms",
+"difficulty": "Medium"
+},
+{
+"id": 16,
+"question": "What is the purpose of React Fragments?",
+"options": [
+"To fetch API data",
+"To group elements without adding an extra DOM element",
+"To create CSS animations",
+"To manage application routes"
+],
+"correct_answer": "To group elements without adding an extra DOM element",
+"category": "JSX",
+"difficulty": "Medium"
+},
+{
+"id": 17,
+"question": "Which hook can cache the result of an expensive calculation between renders?",
+"options": [
+"useMemo",
+"useContext",
+"useRef",
+"useEffect"
+],
+"correct_answer": "useMemo",
+"category": "React Hooks",
+"difficulty": "Hard"
+},
+{
+"id": 18,
+"question": "What is the purpose of the dependency array in useEffect?",
+"options": [
+"To define CSS styles",
+"To determine when the effect should re-run based on reactive values",
+"To declare component props",
+"To create a list of DOM elements"
+],
+"correct_answer": "To determine when the effect should re-run based on reactive values",
+"category": "React Hooks",
+"difficulty": "Medium"
+},
+{
+"id": 19,
+"question": "How should you generally update an array stored in React state?",
+"options": [
+"Modify the existing array directly",
+"Create a new array with the desired changes",
+"Use document.write()",
+"Change the array only through props"
+],
+"correct_answer": "Create a new array with the desired changes",
+"category": "State Management",
+"difficulty": "Medium"
+},
+{
+"id": 20,
+"question": "What does the cleanup function returned by useEffect help with?",
+"options": [
+"Deleting the React application",
+"Cleaning up subscriptions, timers, or other external resources",
+"Resetting all props",
+"Removing every component from the DOM"
+],
+"correct_answer": "Cleaning up subscriptions, timers, or other external resources",
+"category": "React Hooks",
+"difficulty": "Hard"
+}
+]
+
